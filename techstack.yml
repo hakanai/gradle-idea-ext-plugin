@@ -1,0 +1,153 @@
+repo_name: hakanai/gradle-idea-ext-plugin
+report_id: a74fb1c7e2b6f7a649cdd7f196e556ea
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:36:20+00:00'
+requested_by: nskvortsov
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-13 16:31:35.000000000 Z
+- name: Spock Framework
+  description: The Enterprise-ready testing and specification framework
+  website_url: http://spockframework.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5548/UB74SoK2_400x400.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Victor Alenkov
+  last_updated_on: 2020-02-01 07:12:12.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-21 15:58:10.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '28.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-13 16:31:35.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.15.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-21 15:58:10.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-21 15:58:10.000000000 Z
+- name: org.spockframework:spock-core
+  description: Spock is a testing and specification framework for Java and Groovy
+    applications
+  version: '1.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/gradle-idea-ext-plugin/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Nikita Skvortsov
+  last_updated_on: 2020-07-21 15:58:10.000000000 Z
